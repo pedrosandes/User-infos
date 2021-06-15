@@ -108,7 +108,7 @@ function createUserModalImg(imgLink) {
 // Cria um elemento "div", com os textos dentro.
 function createBoxText(firstName, lastName, email, id) {
   let boxTextElem = document.createElement('div');
-  boxTextElem.setAttribute('class', 'user__boxText');
+  boxTextElem.setAttribute('class', 'user__modalBoxText');
   boxTextElem.appendChild(createUserModalFullName(firstName, lastName));
   boxTextElem.appendChild(createUserModalEmail(email));
   boxTextElem.appendChild(createUserModalID(id));

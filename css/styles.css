@@ -101,7 +101,7 @@ body {
   align-items: center;
 }
 
-/* User Info */
+/* User Modal Info */
 .user {
   position: absolute;
   z-index: 1;
@@ -113,19 +113,13 @@ body {
   gap: 20px;
 }
 
-.user__header {
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
-}
-
 .user__modalImg {
   width: 300px;
   height: auto;
   object-fit: cover;
 }
 
-.user__boxText {
+.user__modalBoxText {
   display: flex;
   flex-direction: column;
   justify-content: center;
